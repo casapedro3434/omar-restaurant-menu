@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Omar Restaurant</title>
+<title>Omar Restaurant - Menü</title>
 
 <style>
 * {
@@ -19,10 +19,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* KAPAK */
+/* =========================
+   KAPAK
+========================= */
 
 .cover {
-    height: 330px;
+    height: 340px;
 
     background:
         linear-gradient(rgba(0,0,0,.48), rgba(0,0,0,.48)),
@@ -41,18 +43,20 @@ body {
 .cover h1 {
     color: white;
     font-family: Georgia, serif;
-    font-size: 55px;
-    letter-spacing: 6px;
+    font-size: 58px;
+    letter-spacing: 7px;
 }
 
 .cover p {
     color: white;
     margin-top: 12px;
     font-size: 16px;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
 }
 
-/* MENÜ */
+/* =========================
+   MENÜ
+========================= */
 
 .menu {
     max-width: 900px;
@@ -61,7 +65,7 @@ body {
 }
 
 .category {
-    margin-bottom: 45px;
+    margin-bottom: 50px;
 }
 
 .category h2 {
@@ -69,37 +73,39 @@ body {
     font-family: Georgia, serif;
     font-size: 28px;
     margin-bottom: 20px;
-    padding-bottom: 13px;
+    padding-bottom: 14px;
     border-bottom: 2px solid #b38a45;
 }
 
-/* ÜRÜN */
+/* =========================
+   ÜRÜNLER
+========================= */
 
 .item {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    gap: 15px;
+    gap: 20px;
 
-    padding: 15px 5px;
+    padding: 14px 5px;
 
     border-bottom: 1px solid #ddd7cd;
 }
 
 .names {
-    font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.45;
 }
 
 .tr {
     font-weight: bold;
+    font-size: 16px;
 }
 
 .en,
 .es {
     color: #777;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .price {
@@ -108,7 +114,9 @@ body {
     white-space: nowrap;
 }
 
-/* FOOTER */
+/* =========================
+   FOOTER
+========================= */
 
 footer {
     background: #1d1d1d;
@@ -116,10 +124,12 @@ footer {
     text-align: center;
     padding: 25px;
     font-family: Georgia, serif;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
 }
 
-/* TELEFON */
+/* =========================
+   TELEFON
+========================= */
 
 @media (max-width: 600px) {
 
@@ -128,36 +138,43 @@ footer {
     }
 
     .cover h1 {
-        font-size: 40px;
+        font-size: 42px;
+        letter-spacing: 4px;
     }
 
     .cover p {
         font-size: 13px;
+        letter-spacing: 3px;
     }
 
     .menu {
-        padding: 30px 15px 45px;
+        padding: 30px 15px 50px;
+    }
+
+    .category {
+        margin-bottom: 42px;
     }
 
     .category h2 {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .item {
-        padding: 14px 2px;
+        padding: 13px 2px;
+        gap: 10px;
     }
 
-    .names {
+    .tr {
         font-size: 15px;
     }
 
     .en,
     .es {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .price {
-        font-size: 16px;
+        font-size: 15px;
     }
 }
 </style>
@@ -165,15 +182,15 @@ footer {
 
 <body>
 
-<!-- KAPAK -->
+<!-- =========================
+     KAPAK
+========================= -->
 
 <div class="cover">
-
     <div>
         <h1>OMAR</h1>
         <p>RESTAURANT</p>
     </div>
-
 </div>
 
 
@@ -181,293 +198,211 @@ footer {
 
 
 <!-- =========================
-     SICAK KAHVELER
+     APERİTİFLER
 ========================= -->
 
 <section class="category">
 
-<h2>Sıcak Kahveler / Hot Coffees / Cafés Calientes</h2>
-
+<h2>Aperitifler / Aperitifs / Aperitivos</h2>
 
 <div class="item">
     <div class="names">
-        <div class="tr">Espresso</div>
-        <div class="en">Espresso</div>
-        <div class="es">Espresso</div>
+        <div class="tr">Kir</div>
+        <div class="en">Kir</div>
+        <div class="es">Kir</div>
     </div>
-    <div class="price">120 TL</div>
+    <div class="price">560 TL</div>
 </div>
 
-
 <div class="item">
     <div class="names">
-        <div class="tr">Double Espresso</div>
-        <div class="en">Double Espresso</div>
-        <div class="es">Espresso Doble</div>
+        <div class="tr">Kir Royal</div>
+        <div class="en">Kir Royal</div>
+        <div class="es">Kir Royal</div>
     </div>
-    <div class="price">150 TL</div>
+    <div class="price">580 TL</div>
 </div>
 
-
 <div class="item">
     <div class="names">
-        <div class="tr">Americano</div>
-        <div class="en">Americano</div>
-        <div class="es">Americano</div>
+        <div class="tr">Mimosa</div>
+        <div class="en">Mimosa</div>
+        <div class="es">Mimosa</div>
     </div>
-    <div class="price">130 TL</div>
+    <div class="price">580 TL</div>
 </div>
 
-
 <div class="item">
     <div class="names">
-        <div class="tr">Cortado</div>
-        <div class="en">Cortado</div>
-        <div class="es">Cortado</div>
+        <div class="tr">Mojito</div>
+        <div class="en">Mojito</div>
+        <div class="es">Mojito</div>
     </div>
-    <div class="price">145 TL</div>
+    <div class="price">650 TL</div>
 </div>
 
-
 <div class="item">
     <div class="names">
-        <div class="tr">Macchiato</div>
-        <div class="en">Macchiato</div>
-        <div class="es">Macchiato</div>
+        <div class="tr">Şampanya (Kadeh)</div>
+        <div class="en">Champagne (By Glass)</div>
+        <div class="es">Champán (Por Copa)</div>
     </div>
-    <div class="price">145 TL</div>
+    <div class="price">650 TL</div>
 </div>
 
-
 <div class="item">
     <div class="names">
-        <div class="tr">Cappuccino</div>
-        <div class="en">Cappuccino</div>
-        <div class="es">Capuchino</div>
+        <div class="tr">Votka - Nar Suyu</div>
+        <div class="en">Vodka - Pomegranate Juice</div>
+        <div class="es">Vodka - Zumo de Granada</div>
     </div>
-    <div class="price">155 TL</div>
+    <div class="price">560 TL</div>
 </div>
 
-
 <div class="item">
     <div class="names">
-        <div class="tr">Cafe Latte</div>
-        <div class="en">Cafe Latte</div>
-        <div class="es">Café Latte</div>
+        <div class="tr">Rakı</div>
+        <div class="en">Rakı</div>
+        <div class="es">Rakı</div>
     </div>
-    <div class="price">155 TL</div>
+    <div class="price">390 TL</div>
 </div>
 
-
 <div class="item">
     <div class="names">
-        <div class="tr">Flat White</div>
-        <div class="en">Flat White</div>
-        <div class="es">Flat White</div>
+        <div class="tr">Campari Portakal</div>
+        <div class="en">Campari Orange</div>
+        <div class="es">Campari Naranja</div>
     </div>
-    <div class="price">160 TL</div>
+    <div class="price">520 TL</div>
 </div>
 
-
 <div class="item">
     <div class="names">
-        <div class="tr">Mocha</div>
-        <div class="en">Mocha</div>
-        <div class="es">Moca</div>
+        <div class="tr">Elmalı Martini</div>
+        <div class="en">Apple Martini</div>
+        <div class="es">Martini de Manzana</div>
     </div>
-    <div class="price">170 TL</div>
+    <div class="price">520 TL</div>
 </div>
 
-
 <div class="item">
     <div class="names">
-        <div class="tr">Türk Kahvesi</div>
-        <div class="en">Turkish Coffee</div>
-        <div class="es">Café Turco</div>
+        <div class="tr">Votka & Tonik</div>
+        <div class="en">Vodka & Tonic</div>
+        <div class="es">Vodka & Tónica</div>
     </div>
-    <div class="price">110 TL</div>
+    <div class="price">550 TL</div>
 </div>
 
-
 <div class="item">
     <div class="names">
-        <div class="tr">Dibek Kahvesi</div>
-        <div class="en">Dibek Coffee</div>
-        <div class="es">Café Dibek</div>
+        <div class="tr">Cin & Tonik</div>
+        <div class="en">Gin & Tonic</div>
+        <div class="es">Gin & Tónica</div>
     </div>
-    <div class="price">120 TL</div>
+    <div class="price">550 TL</div>
 </div>
 
+<div class="item">
+    <div class="names">
+        <div class="tr">Gin & Fizz</div>
+        <div class="en">Gin & Fizz</div>
+        <div class="es">Gin & Fizz</div>
+    </div>
+    <div class="price">550 TL</div>
+</div>
 
 <div class="item">
     <div class="names">
-        <div class="tr">Filtre Kahve</div>
-        <div class="en">Filter Coffee</div>
-        <div class="es">Café Filtrado</div>
+        <div class="tr">Red Bull</div>
+        <div class="en">Red Bull</div>
+        <div class="es">Red Bull</div>
     </div>
-    <div class="price">130 TL</div>
+    <div class="price">240 TL</div>
 </div>
 
 </section>
 
 
 <!-- =========================
-     SOĞUK KAHVELER
+     KOKTEYLLER
 ========================= -->
 
 <section class="category">
 
-<h2>Soğuk Kahveler / Iced Coffees / Cafés Fríos</h2>
-
+<h2>Kokteyller / Cocktails / Cócteles</h2>
 
 <div class="item">
     <div class="names">
-        <div class="tr">Iced Americano</div>
-        <div class="en">Iced Americano</div>
-        <div class="es">Americano Frío</div>
+        <div class="tr">Cosmopolitan</div>
+        <div class="en">Cosmopolitan</div>
+        <div class="es">Cosmopolitan</div>
     </div>
-    <div class="price">140 TL</div>
+    <div class="price">650 TL</div>
 </div>
 
-
 <div class="item">
     <div class="names">
-        <div class="tr">Iced Latte</div>
-        <div class="en">Iced Latte</div>
-        <div class="es">Latte Frío</div>
+        <div class="tr">Tequila Sunrise</div>
+        <div class="en">Tequila Sunrise</div>
+        <div class="es">Tequila Sunrise</div>
     </div>
-    <div class="price">165 TL</div>
+    <div class="price">650 TL</div>
 </div>
 
-
 <div class="item">
     <div class="names">
-        <div class="tr">Iced Cappuccino</div>
-        <div class="en">Iced Cappuccino</div>
-        <div class="es">Capuchino Frío</div>
+        <div class="tr">Bloody Mary</div>
+        <div class="en">Bloody Mary</div>
+        <div class="es">Bloody Mary</div>
     </div>
-    <div class="price">165 TL</div>
+    <div class="price">670 TL</div>
 </div>
 
-
 <div class="item">
     <div class="names">
-        <div class="tr">Iced Mocha</div>
-        <div class="en">Iced Mocha</div>
-        <div class="es">Moca Frío</div>
+        <div class="tr">Cuba Libre</div>
+        <div class="en">Cuba Libre</div>
+        <div class="es">Cuba Libre</div>
     </div>
-    <div class="price">175 TL</div>
+    <div class="price">670 TL</div>
 </div>
 
-
 <div class="item">
     <div class="names">
-        <div class="tr">Cold Brew</div>
-        <div class="en">Cold Brew</div>
-        <div class="es">Café Cold Brew</div>
+        <div class="tr">White Russian</div>
+        <div class="en">White Russian</div>
+        <div class="es">White Russian</div>
     </div>
-    <div class="price">165 TL</div>
+    <div class="price">670 TL</div>
 </div>
 
-
 <div class="item">
     <div class="names">
-        <div class="tr">Espresso Tonic</div>
-        <div class="en">Espresso Tonic</div>
-        <div class="es">Espresso Tónica</div>
+        <div class="tr">Sex on the Beach</div>
+        <div class="en">Sex on the Beach</div>
+        <div class="es">Sex on the Beach</div>
     </div>
-    <div class="price">180 TL</div>
+    <div class="price">670 TL</div>
 </div>
 
-
 <div class="item">
     <div class="names">
-        <div class="tr">Affogato</div>
-        <div class="en">Affogato</div>
-        <div class="es">Affogato</div>
+        <div class="tr">Piña Colada</div>
+        <div class="en">Piña Colada</div>
+        <div class="es">Piña Colada</div>
     </div>
-    <div class="price">180 TL</div>
+    <div class="price">660 TL</div>
 </div>
 
-</section>
-
-
-<!-- =========================
-     ÇAYLAR
-========================= -->
-
-<section class="category">
-
-<h2>Çaylar / Teas / Tés</h2>
-
-
 <div class="item">
     <div class="names">
-        <div class="tr">Çay</div>
-        <div class="en">Turkish Tea</div>
-        <div class="es">Té Turco</div>
+        <div class="tr">Margarita</div>
+        <div class="en">Margarita</div>
+        <div class="es">Margarita</div>
     </div>
-    <div class="price">50 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Fincan Çay</div>
-        <div class="en">Turkish Tea in a Cup</div>
-        <div class="es">Té Turco en Taza</div>
-    </div>
-    <div class="price">60 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Ada Çayı</div>
-        <div class="en">Sage Tea</div>
-        <div class="es">Té de Salvia</div>
-    </div>
-    <div class="price">100 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Ihlamur</div>
-        <div class="en">Linden Tea</div>
-        <div class="es">Té de Tilo</div>
-    </div>
-    <div class="price">100 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Yeşil Çay</div>
-        <div class="en">Green Tea</div>
-        <div class="es">Té Verde</div>
-    </div>
-    <div class="price">100 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Kış Çayı</div>
-        <div class="en">Winter Tea</div>
-        <div class="es">Té de Invierno</div>
-    </div>
-    <div class="price">110 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Nane Limon</div>
-        <div class="en">Mint & Lemon Tea</div>
-        <div class="es">Té de Menta y Limón</div>
-    </div>
-    <div class="price">100 TL</div>
+    <div class="price">660 TL</div>
 </div>
 
 </section>
@@ -481,269 +416,14 @@ footer {
 
 <h2>Soğuk İçecekler / Cold Drinks / Bebidas Frías</h2>
 
-
 <div class="item">
     <div class="names">
-        <div class="tr">Ice Tea Şeftali</div>
-        <div class="en">Peach Ice Tea</div>
-        <div class="es">Té Helado de Melocotón</div>
+        <div class="tr">Coca-Cola, Fanta</div>
+        <div class="en">Coca-Cola, Fanta</div>
+        <div class="es">Coca-Cola, Fanta</div>
     </div>
-    <div class="price">100 TL</div>
+    <div class="price">200 TL</div>
 </div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Ice Tea Limon</div>
-        <div class="en">Lemon Ice Tea</div>
-        <div class="es">Té Helado de Limón</div>
-    </div>
-    <div class="price">100 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Limonata</div>
-        <div class="en">Lemonade</div>
-        <div class="es">Limonada</div>
-    </div>
-    <div class="price">130 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Çilekli Limonata</div>
-        <div class="en">Strawberry Lemonade</div>
-        <div class="es">Limonada de Fresa</div>
-    </div>
-    <div class="price">150 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Naneli Limonata</div>
-        <div class="en">Mint Lemonade</div>
-        <div class="es">Limonada de Menta</div>
-    </div>
-    <div class="price">145 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Milkshake Çikolata</div>
-        <div class="en">Chocolate Milkshake</div>
-        <div class="es">Batido de Chocolate</div>
-    </div>
-    <div class="price">180 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Milkshake Çilek</div>
-        <div class="en">Strawberry Milkshake</div>
-        <div class="es">Batido de Fresa</div>
-    </div>
-    <div class="price">180 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Milkshake Vanilya</div>
-        <div class="en">Vanilla Milkshake</div>
-        <div class="es">Batido de Vainilla</div>
-    </div>
-    <div class="price">180 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Milkshake Muz</div>
-        <div class="en">Banana Milkshake</div>
-        <div class="es">Batido de Plátano</div>
-    </div>
-    <div class="price">180 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Frozen Çilek</div>
-        <div class="en">Strawberry Frozen</div>
-        <div class="es">Frozen de Fresa</div>
-    </div>
-    <div class="price">170 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Frozen Mango</div>
-        <div class="en">Mango Frozen</div>
-        <div class="es">Frozen de Mango</div>
-    </div>
-    <div class="price">170 TL</div>
-</div>
-
-</section>
-
-
-<!-- =========================
-     MEŞRUBATLAR
-========================= -->
-
-<section class="category">
-
-<h2>Meşrubatlar / Soft Drinks / Refrescos</h2>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Coca-Cola</div>
-        <div class="en">Coca-Cola</div>
-        <div class="es">Coca-Cola</div>
-    </div>
-    <div class="price">100 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Coca-Cola Zero</div>
-        <div class="en">Coca-Cola Zero</div>
-        <div class="es">Coca-Cola Zero</div>
-    </div>
-    <div class="price">100 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Fanta</div>
-        <div class="en">Fanta</div>
-        <div class="es">Fanta</div>
-    </div>
-    <div class="price">100 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Sprite</div>
-        <div class="en">Sprite</div>
-        <div class="es">Sprite</div>
-    </div>
-    <div class="price">100 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Schweppes</div>
-        <div class="en">Schweppes</div>
-        <div class="es">Schweppes</div>
-    </div>
-    <div class="price">110 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Red Bull</div>
-        <div class="en">Red Bull</div>
-        <div class="es">Red Bull</div>
-    </div>
-    <div class="price">150 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Ayran</div>
-        <div class="en">Ayran</div>
-        <div class="es">Ayran</div>
-    </div>
-    <div class="price">80 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Meyveli Ayran</div>
-        <div class="en">Fruit Ayran</div>
-        <div class="es">Ayran de Frutas</div>
-    </div>
-    <div class="price">100 TL</div>
-</div>
-
-</section>
-
-
-<!-- =========================
-     SU & SODA
-========================= -->
-
-<section class="category">
-
-<h2>Su & Soda / Water & Mineral Water / Agua</h2>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Su</div>
-        <div class="en">Water</div>
-        <div class="es">Agua</div>
-    </div>
-    <div class="price">40 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Maden Suyu</div>
-        <div class="en">Mineral Water</div>
-        <div class="es">Agua Mineral</div>
-    </div>
-    <div class="price">70 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Limonlu Maden Suyu</div>
-        <div class="en">Lemon Mineral Water</div>
-        <div class="es">Agua Mineral con Limón</div>
-    </div>
-    <div class="price">90 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Churchill</div>
-        <div class="en">Churchill</div>
-        <div class="es">Churchill</div>
-    </div>
-    <div class="price">100 TL</div>
-</div>
-
-</section>
-
-
-<!-- =========================
-     MEYVE SULARI
-========================= -->
-
-<section class="category">
-
-<h2>Meyve Suları / Juices / Zumos</h2>
-
 
 <div class="item">
     <div class="names">
@@ -751,47 +431,189 @@ footer {
         <div class="en">Fresh Orange Juice</div>
         <div class="es">Zumo de Naranja Natural</div>
     </div>
-    <div class="price">150 TL</div>
+    <div class="price">290 TL</div>
 </div>
-
 
 <div class="item">
     <div class="names">
-        <div class="tr">Elma Suyu</div>
-        <div class="en">Apple Juice</div>
-        <div class="es">Zumo de Manzana</div>
+        <div class="tr">Taze Nar Suyu</div>
+        <div class="en">Fresh Pomegranate Juice</div>
+        <div class="es">Zumo de Granada Natural</div>
     </div>
-    <div class="price">130 TL</div>
+    <div class="price">300 TL</div>
 </div>
-
 
 <div class="item">
     <div class="names">
-        <div class="tr">Vişne Suyu</div>
-        <div class="en">Sour Cherry Juice</div>
-        <div class="es">Zumo de Cereza Ácida</div>
+        <div class="tr">Karışık Taze Meyve Suyu</div>
+        <div class="en">Mixed Fresh Fruit Juice</div>
+        <div class="es">Zumo de Frutas Frescas Mixtas</div>
     </div>
-    <div class="price">120 TL</div>
+    <div class="price">300 TL</div>
 </div>
-
 
 <div class="item">
     <div class="names">
-        <div class="tr">Şeftali Suyu</div>
-        <div class="en">Peach Juice</div>
-        <div class="es">Zumo de Melocotón</div>
+        <div class="tr">Ice Tea</div>
+        <div class="en">Iced Tea</div>
+        <div class="es">Té Helado</div>
     </div>
-    <div class="price">120 TL</div>
+    <div class="price">200 TL</div>
 </div>
-
 
 <div class="item">
     <div class="names">
-        <div class="tr">Karışık Meyve Suyu</div>
-        <div class="en">Mixed Fruit Juice</div>
-        <div class="es">Zumo de Frutas Mixtas</div>
+        <div class="tr">Limonata</div>
+        <div class="en">Lemonade</div>
+        <div class="es">Limonada</div>
     </div>
-    <div class="price">140 TL</div>
+    <div class="price">200 TL</div>
+</div>
+
+<div class="item">
+    <div class="names">
+        <div class="tr">Ayran</div>
+        <div class="en">Ayran (Yoghurt Drink)</div>
+        <div class="es">Ayran (Bebida de Yogur)</div>
+    </div>
+    <div class="price">200 TL</div>
+</div>
+
+<div class="item">
+    <div class="names">
+        <div class="tr">Soğuk Kahve</div>
+        <div class="en">Iced Coffee</div>
+        <div class="es">Café Frío</div>
+    </div>
+    <div class="price">270 TL</div>
+</div>
+
+<div class="item">
+    <div class="names">
+        <div class="tr">Su 0,5 L</div>
+        <div class="en">Water 0.5 L</div>
+        <div class="es">Agua 0,5 L</div>
+    </div>
+    <div class="price">100 TL</div>
+</div>
+
+<div class="item">
+    <div class="names">
+        <div class="tr">Su 1,5 L</div>
+        <div class="en">Water 1.5 L</div>
+        <div class="es">Agua 1,5 L</div>
+    </div>
+    <div class="price">200 TL</div>
+</div>
+
+<div class="item">
+    <div class="names">
+        <div class="tr">Maden Suyu 25 cl</div>
+        <div class="en">Sparkling Water 25 cl</div>
+        <div class="es">Agua con Gas 25 cl</div>
+    </div>
+    <div class="price">110 TL</div>
+</div>
+
+<div class="item">
+    <div class="names">
+        <div class="tr">Maden Suyu 1 L</div>
+        <div class="en">Sparkling Water 1 L</div>
+        <div class="es">Agua con Gas 1 L</div>
+    </div>
+    <div class="price">240 TL</div>
+</div>
+
+</section>
+
+
+<!-- =========================
+     DİJESTİFLER
+========================= -->
+
+<section class="category">
+
+<h2>Digestifler / Digestifs / Digestivos</h2>
+
+<div class="item">
+    <div class="names">
+        <div class="tr">Konyak (Yerel Konyak)</div>
+        <div class="en">Cognac (Local Cognac)</div>
+        <div class="es">Coñac (Coñac Local)</div>
+    </div>
+    <div class="price">550 TL</div>
+</div>
+
+<div class="item">
+    <div class="names">
+        <div class="tr">Konyak</div>
+        <div class="en">Cognac (Hennessy, Remy Martin, Courvoisier)</div>
+        <div class="es">Coñac (Hennessy, Remy Martin, Courvoisier)</div>
+    </div>
+    <div class="price">550 TL</div>
+</div>
+
+<div class="item">
+    <div class="names">
+        <div class="tr">Amaretto</div>
+        <div class="en">Amaretto</div>
+        <div class="es">Amaretto</div>
+    </div>
+    <div class="price">550 TL</div>
+</div>
+
+<div class="item">
+    <div class="names">
+        <div class="tr">Baileys</div>
+        <div class="en">Baileys</div>
+        <div class="es">Baileys</div>
+    </div>
+    <div class="price">580 TL</div>
+</div>
+
+<div class="item">
+    <div class="names">
+        <div class="tr">Viski</div>
+        <div class="en">Whisky (J&B, Ballantine's, Johnnie Walker)</div>
+        <div class="es">Whisky (J&B, Ballantine's, Johnnie Walker)</div>
+    </div>
+    <div class="price">590 TL</div>
+</div>
+
+<div class="item">
+    <div class="names">
+        <div class="tr">Aperol Spritz</div>
+        <div class="en">Aperol Spritz</div>
+        <div class="es">Aperol Spritz</div>
+    </div>
+    <div class="price">560 TL</div>
+</div>
+
+<div class="item">
+    <div class="names">
+        <div class="tr">Jack Daniel's</div>
+        <div class="en">Jack Daniel's</div>
+        <div class="es">Jack Daniel's</div>
+    </div>
+    <div class="price">600 TL</div>
+</div>
+
+<div class="item">
+    <div class="names">
+        <div class="tr">Yerel Likörler</div>
+        <div class="en">Local Liqueurs</div>
+        <div class="es">Licores Locales</div>
+    </div>
+    <div class="price">540 TL</div>
+</div>
+
+<div class="item">
+    <div class="names">
+        <div class="tr">Kahlúa</div>
+        <div class="en">Kahlúa</div>
+        <div class="es">Kahlúa</div>
+    </div>
+    <div class="price">540 TL</div>
 </div>
 
 </section>
@@ -805,6 +627,59 @@ footer {
 
 <h2>Sıcak İçecekler / Hot Drinks / Bebidas Calientes</h2>
 
+<div class="item">
+    <div class="names">
+        <div class="tr">Çaylar (Meyve & Bitki Çayları)</div>
+        <div class="en">Teas (Fruit & Herbal Teas)</div>
+        <div class="es">Tés (Frutas y Hierbas)</div>
+    </div>
+    <div class="price">100 TL</div>
+</div>
+
+<div class="item">
+    <div class="names">
+        <div class="tr">Türk Kahvesi</div>
+        <div class="en">Turkish Coffee</div>
+        <div class="es">Café Turco</div>
+    </div>
+    <div class="price">180 TL</div>
+</div>
+
+<div class="item">
+    <div class="names">
+        <div class="tr">Espresso</div>
+        <div class="en">Espresso</div>
+        <div class="es">Espresso</div>
+    </div>
+    <div class="price">180 TL</div>
+</div>
+
+<div class="item">
+    <div class="names">
+        <div class="tr">Cappuccino</div>
+        <div class="en">Cappuccino</div>
+        <div class="es">Capuchino</div>
+    </div>
+    <div class="price">220 TL</div>
+</div>
+
+<div class="item">
+    <div class="names">
+        <div class="tr">Cafe Latte</div>
+        <div class="en">Coffee Latte</div>
+        <div class="es">Café Latte</div>
+    </div>
+    <div class="price">220 TL</div>
+</div>
+
+<div class="item">
+    <div class="names">
+        <div class="tr">Nescafe</div>
+        <div class="en">Nescafe</div>
+        <div class="es">Nescafé</div>
+    </div>
+    <div class="price">200 TL</div>
+</div>
 
 <div class="item">
     <div class="names">
@@ -812,9 +687,17 @@ footer {
         <div class="en">Hot Chocolate</div>
         <div class="es">Chocolate Caliente</div>
     </div>
-    <div class="price">140 TL</div>
+    <div class="price">230 TL</div>
 </div>
 
+<div class="item">
+    <div class="names">
+        <div class="tr">Irish Coffee</div>
+        <div class="en">Irish Coffee</div>
+        <div class="es">Café Irlandés</div>
+    </div>
+    <div class="price">480 TL</div>
+</div>
 
 <div class="item">
     <div class="names">
@@ -822,17 +705,7 @@ footer {
         <div class="en">Salep</div>
         <div class="es">Salep</div>
     </div>
-    <div class="price">140 TL</div>
-</div>
-
-
-<div class="item">
-    <div class="names">
-        <div class="tr">Ballı Süt</div>
-        <div class="en">Milk with Honey</div>
-        <div class="es">Leche con Miel</div>
-    </div>
-    <div class="price">120 TL</div>
+    <div class="price">220 TL</div>
 </div>
 
 </section>
