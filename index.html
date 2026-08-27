@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -7,6 +8,7 @@
 <title>Omar Restaurant - Menü</title>
 
 <style>
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -61,7 +63,7 @@ body {
 .menu {
     max-width: 900px;
     margin: auto;
-    padding: 45px 18px 60px;
+    padding: 35px 18px 60px;
 }
 
 .category {
@@ -78,12 +80,68 @@ body {
 }
 
 /* =========================
+   ÖZEL SPESİYAL
+========================= */
+
+.special-offer {
+    margin: 0 auto 45px;
+
+    padding: 28px 20px;
+
+    text-align: center;
+
+    background: #1d1d1d;
+
+    color: white;
+
+    border: 2px solid #b38a45;
+
+    border-radius: 14px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,.18);
+}
+
+.offer-small {
+    color: #b38a45;
+
+    font-size: 12px;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 10px;
+}
+
+.offer-title {
+    font-family: Georgia, serif;
+
+    font-size: 28px;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 12px;
+}
+
+.offer-text {
+    font-size: 16px;
+
+    line-height: 1.6;
+
+    color: #eee;
+}
+
+.offer-text strong {
+    color: #d6b36a;
+}
+
+/* =========================
    ÜRÜNLER
 ========================= */
 
 .item {
     display: flex;
+
     justify-content: space-between;
+
     align-items: center;
 
     gap: 20px;
@@ -110,7 +168,9 @@ body {
 
 .price {
     font-size: 17px;
+
     font-weight: bold;
+
     white-space: nowrap;
 }
 
@@ -120,10 +180,15 @@ body {
 
 footer {
     background: #1d1d1d;
+
     color: white;
+
     text-align: center;
+
     padding: 25px;
+
     font-family: Georgia, serif;
+
     letter-spacing: 4px;
 }
 
@@ -139,11 +204,13 @@ footer {
 
     .cover h1 {
         font-size: 42px;
+
         letter-spacing: 4px;
     }
 
     .cover p {
         font-size: 13px;
+
         letter-spacing: 3px;
     }
 
@@ -161,6 +228,7 @@ footer {
 
     .item {
         padding: 13px 2px;
+
         gap: 10px;
     }
 
@@ -176,7 +244,22 @@ footer {
     .price {
         font-size: 15px;
     }
+
+    .special-offer {
+        padding: 24px 15px;
+
+        margin-bottom: 35px;
+    }
+
+    .offer-title {
+        font-size: 22px;
+    }
+
+    .offer-text {
+        font-size: 14px;
+    }
 }
+
 </style>
 </head>
 
@@ -187,14 +270,41 @@ footer {
 ========================= -->
 
 <div class="cover">
+
     <div>
+
         <h1>OMAR</h1>
+
         <p>RESTAURANT</p>
+
     </div>
+
 </div>
 
 
 <div class="menu">
+
+
+<!-- =========================
+     ÖZEL SPESİYAL
+========================= -->
+
+<div class="special-offer">
+
+    <div class="offer-small">
+        OMAR RESTAURANT
+    </div>
+
+    <div class="offer-title">
+        ✦ ÖZEL SPESİYALİMİZ ✦
+    </div>
+
+    <div class="offer-text">
+        Sipariş veren misafirlerimize
+        <strong>spesiyalimiz ücretsizdir.</strong>
+    </div>
+
+</div>
 
 
 <!-- =========================
@@ -715,14 +825,9 @@ footer {
 
 
 <footer>
-    <div>OMAR RESTAURANT</div>
-
-    <div style="
-        margin-top: 15px;
-        font-family: Arial, sans-serif;
-        font-size: 15px;
-        letter-spacing: 0;
-    ">
-        Sipariş veren misafirlerimize spesiyalimiz KUNA ŞEXO (ANİ SEGO) ücretsiz olarak verilecektir.
-    </div>
+OMAR RESTAURANT
 </footer>
+
+</body>
+</html>
+```
